@@ -1,3 +1,69 @@
+$background: #a7aeb1;
+$border-color:  #a7aeb1;
+$border-size: 3px;
+$color-progress-bar: #000000;
+$color-progress-bar-left: #a7aeb1;
+$color-progress-bar-right: #ebebeb;
+
+@mixin css-arrow($height: 10px, $color: #efefef, $direction: bottom, $outside: true) {
+  position: relative;
+ 
+  &:after,
+  &:before {
+    border: solid transparent;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    pointer-events: none;
+    width: 0;
+   
+    @if $direction == right {
+      @if $outside {
+        left: 100%;
+      }
+      @else {
+        margin-right: -$border-shift;
+        right: 0;
+      }
+    }
+    @if $direction == left {
+      @if $outside {
+        right: 100%;
+      }
+      @else {
+        left: 0;
+        margin-left: -$border-shift;
+      }
+    }
+  }
+   &:after {
+    border-color: rgba(255, 255, 255, 0);
+    @if $direction == right {
+      @if $outside {
+        border-left-color: $color;
+      }
+      @else {
+        border-right-color: $color;
+      }
+    }
+    @if $direction == left {
+      @if $outside {
+        border-right-color: $color;
+      }
+      @else {
+        border-left-color: $color;
+      }
+    }
+   
+    @if $direction == left or $direction == right {
+      top: 50%;
+      margin-top: -$height;
+    }
+    border-width: $height;
+  }
+}
+
 .bgImg {
     /* The image used */
     z-index:-1;
@@ -8,3 +74,48 @@
     width:100%;
     background-size:cover;
 }
+
+.bgImg__progressDate {
+  overflow: auto;  
+  bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 40px;
+}
+
+.progressTime {
+  opacity: 0.5;
+  display:flex;
+  flex-flow: row wrap;
+  margin : 0;
+  width: 50%;
+  height: 40px;
+  overflow: hidden;
+  justify-content: center;
+  align-items : center;
+}
+
+.progressTime__closing {
+  background-color:$color-progress-bar-left;
+  padding-right:3%;
+  margin : 0;
+  width: 35%;
+  height: 40px;
+  flex-grow: 1;
+  text-transform:uppercase;
+  text-align: right;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+}
+
+.progressTime__days {
+  text-align: left;
+  vertical-align: middle;
+  padding-left:3%;
+  margin : 0;
+  flex-grow:1;
+  background-color: $color-progress-bar-right;
+  font-size: 30px;
+}
+

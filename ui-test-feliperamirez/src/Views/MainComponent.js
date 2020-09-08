@@ -9,8 +9,17 @@ class MainComponent extends Component {
         <div>
             <div className="bgImg">
                 <HeaderComponent/>
-                <FooterComponent/>
+                <div className="bgImg__progressDate">
+                  <div className="progressTime">
+                    <p className="progressTime__closing">Closing</p>
+                  </div>
+                  <div className="progressTime">
+                    <p className="progressTime__days">22 days</p>
+                  </div>
+                 </div> 
             </div>
+            <h2>Votes</h2>
+            <FooterComponent/>
         </div>
       )
     }
