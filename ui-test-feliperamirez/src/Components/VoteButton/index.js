@@ -11,9 +11,6 @@ class VoteButton extends Component {
     }
 
     addVote(id) {
-
-        console.log("vote good", id);
-
         let data = {
             id: id,
             good: 0,
