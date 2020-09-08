@@ -1,8 +1,8 @@
 import React from 'react';
-import magnify from '../images/magnify.png';
-import './HeaderComponent.scss';
+import magnify from './images/magnify.png';
+import './styles.scss';
 
-function HeaderComponent () {
+function Header () {
   return (
     <header>
       <div className="child">
@@ -22,4 +22,4 @@ function HeaderComponent () {
   );
 }
 
-export default HeaderComponent;
+export default Header;

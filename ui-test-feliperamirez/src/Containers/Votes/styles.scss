@@ -1,0 +1,16 @@
+.container-votes {
+    padding:40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .box-tittle-votes-size {
+    font-size: 40px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container-votes  {
+      grid-template-columns: 1fr;
+    }
+  }

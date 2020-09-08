@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Votes rendering Votes correctly rendering 1`] = `
+<div
+  className="container-votes"
+>
+  <div
+    className="card-container"
+  >
+    <div
+      className="card-container_background card-container_background--1"
+    >
+      <div
+        className="grid box"
+      >
+        <div>
+          <section>
+            <p>
+              <strong
+                className="box-tittle-votes-size regular"
+              >
+                Kanye West
+              </strong>
+            </p>
+            <p
+              className="thin"
+            >
+              1 month ago in Entertainment
+            </p>
+            <p
+              className="regular"
+            >
+              Vestibulum diam ante, porttitor a odio eget, rhoncus neque.. Aenean eu velit libero
+            </p>
+            <div>
+              <div
+                className="middle"
+              >
+                <label
+                  className="order-left"
+                >
+                  <input
+                    name="radio"
+                    type="radio"
+                    value="good"
+                  />
+                  <div
+                    className="vote-good box-vote"
+                  >
+                    <span
+                      className="oi oi-thumb-up"
+                    />
+                  </div>
+                </label>
+                <label
+                  className="order-left"
+                >
+                  <input
+                    name="radio"
+                    type="radio"
+                    value="bad"
+                  />
+                  <div
+                    className="good-bad box-vote"
+                  >
+                    <span
+                      className="oi oi-thumb-down box-bad-down"
+                    />
+                  </div>
+                </label>
+                <label
+                  className="order-left"
+                >
+                  <button
+                    className="button"
+                    onClick={[Function]}
+                  >
+                    Vote now
+                  </button>
+                </label>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div
+        className="grid box--good"
+      >
+        <span
+          className="oi oi-thumb-up"
+        />
+      </div>
+      <div
+        className="grid box--bad"
+      >
+        <span
+          className="oi oi-thumb-down box-bad-down"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-container"
+  >
+    <div
+      className="card-container_background card-container_background--2"
+    >
+      <div
+        className="grid box"
+      >
+        <div>
+          <section>
+            <p>
+              <strong
+                className="box-tittle-votes-size regular"
+              >
+                Mark Zuckerberg
+              </strong>
+            </p>
+            <p
+              className="thin"
+            >
+              1 month ago in Bussines
+            </p>
+            <p
+              className="regular"
+            >
+              Vestibulum diam ante, porttitor a odio eget, rhoncus neque.. Aenean eu velit libero
+            </p>
+            <div>
+              <div
+                className="middle"
+              >
+                <label
+                  className="order-left"
+                >
+                  <input
+                    name="radio"
+                    type="radio"
+                    value="good"
+                  />
+                  <div
+                    className="vote-good box-vote"
+                  >
+                    <span
+                      className="oi oi-thumb-up"
+                    />
+                  </div>
+                </label>
+                <label
+                  className="order-left"
+                >
+                  <input
+                    name="radio"
+                    type="radio"
+                    value="bad"
+                  />
+                  <div
+                    className="good-bad box-vote"
+                  >
+                    <span
+                      className="oi oi-thumb-down box-bad-down"
+                    />
+                  </div>
+                </label>
+                <label
+                  className="order-left"
+                >
+                  <button
+                    className="button"
+                    onClick={[Function]}
+                  >
+                    Vote now
+                  </button>
+                </label>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div
+        className="grid box--good"
+      >
+        <span
+          className="oi oi-thumb-up"
+        />
+      </div>
+      <div
+        className="grid box--bad"
+      >
+        <span
+          className="oi oi-thumb-down box-bad-down"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-container"
+  >
+    <div
+      className="card-container_background card-container_background--3"
+    >
+      <div
+        className="grid box"
+      >
+        <div>
+          <section>
+            <p>
+              <strong
+                className="box-tittle-votes-size regular"
+              >
+                Cristina Fernandez de Kirchner
+              </strong>
+            </p>
+            <p
+              className="thin"
+            >
+              1 month ago in Politics
+            </p>
+            <p
+              className="regular"
+            >
+              Vestibulum diam ante, porttitor a odio eget, rhoncus neque.. Aenean eu velit libero
+            </p>
+            <div>
+              <div
+                className="middle"
+              >
+                <label
+                  className="order-left"
+                >
+                  <input
+                    name="radio"
+                    type="radio"
+                    value="good"
+                  />
+                  <div
+                    className="vote-good box-vote"
+                  >
+                    <span
+                      className="oi oi-thumb-up"
+                    />
+                  </div>
+                </label>
+                <label
+                  className="order-left"
+                >
+                  <input
+                    name="radio"
+                    type="radio"
+                    value="bad"
+                  />
+                  <div
+                    className="good-bad box-vote"
+                  >
+                    <span
+                      className="oi oi-thumb-down box-bad-down"
+                    />
+                  </div>
+                </label>
+                <label
+                  className="order-left"
+                >
+                  <button
+                    className="button"
+                    onClick={[Function]}
+                  >
+                    Vote now
+                  </button>
+                </label>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div
+        className="grid box--good"
+      >
+        <span
+          className="oi oi-thumb-up"
+        />
+      </div>
+      <div
+        className="grid box--bad"
+      >
+        <span
+          className="oi oi-thumb-down box-bad-down"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-container"
+  >
+    <div
+      className="card-container_background card-container_background--4"
+    >
+      <div
+        className="grid box"
+      >
+        <div>
+          <section>
+            <p>
+              <strong
+                className="box-tittle-votes-size regular"
+              >
+                Malala Yousafzai
+              </strong>
+            </p>
+            <p
+              className="thin"
+            >
+              1 month ago in Entertainment
+            </p>
+            <p
+              className="regular"
+            >
+              Vestibulum diam ante, porttitor a odio eget, rhoncus neque.. Aenean eu velit libero
+            </p>
+            <div>
+              <div
+                className="middle"
+              >
+                <label
+                  className="order-left"
+                >
+                  <input
+                    name="radio"
+                    type="radio"
+                    value="good"
+                  />
+                  <div
+                    className="vote-good box-vote"
+                  >
+                    <span
+                      className="oi oi-thumb-up"
+                    />
+                  </div>
+                </label>
+                <label
+                  className="order-left"
+                >
+                  <input
+                    name="radio"
+                    type="radio"
+                    value="bad"
+                  />
+                  <div
+                    className="good-bad box-vote"
+                  >
+                    <span
+                      className="oi oi-thumb-down box-bad-down"
+                    />
+                  </div>
+                </label>
+                <label
+                  className="order-left"
+                >
+                  <button
+                    className="button"
+                    onClick={[Function]}
+                  >
+                    Vote now
+                  </button>
+                </label>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div
+        className="grid box--good"
+      >
+        <span
+          className="oi oi-thumb-up"
+        />
+      </div>
+      <div
+        className="grid box--bad"
+      >
+        <span
+          className="oi oi-thumb-down box-bad-down"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

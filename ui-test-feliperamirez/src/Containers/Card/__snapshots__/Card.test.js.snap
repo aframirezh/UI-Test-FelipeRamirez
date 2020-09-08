@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card rendering Card correctly rendering 1`] = `
+<div
+  className="card-container"
+>
+  <div
+    className="card-container_background card-container_background--1"
+  >
+    <div
+      className="grid box"
+    >
+      <div>
+        <section>
+          <p>
+            <strong
+              className="box-tittle-votes-size regular"
+            >
+              Test Name
+            </strong>
+          </p>
+          <p
+            className="thin"
+          />
+          <p
+            className="regular"
+          >
+            Description test
+          </p>
+          <div>
+            <div
+              className="middle"
+            >
+              <label
+                className="order-left"
+              >
+                <input
+                  name="radio"
+                  type="radio"
+                  value="good"
+                />
+                <div
+                  className="vote-good box-vote"
+                >
+                  <span
+                    className="oi oi-thumb-up"
+                  />
+                </div>
+              </label>
+              <label
+                className="order-left"
+              >
+                <input
+                  name="radio"
+                  type="radio"
+                  value="bad"
+                />
+                <div
+                  className="good-bad box-vote"
+                >
+                  <span
+                    className="oi oi-thumb-down box-bad-down"
+                  />
+                </div>
+              </label>
+              <label
+                className="order-left"
+              >
+                <button
+                  className="button"
+                  onClick={[Function]}
+                >
+                  Vote now
+                </button>
+              </label>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div
+      className="grid box--good"
+    >
+      <span
+        className="oi oi-thumb-up"
+      />
+    </div>
+    <div
+      className="grid box--bad"
+    >
+      <span
+        className="oi oi-thumb-down box-bad-down"
+      />
+    </div>
+  </div>
+</div>
+`;

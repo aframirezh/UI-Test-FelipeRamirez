@@ -1,0 +1,48 @@
+[    
+    {
+    "id": 2,
+    "position":1,
+    "name": "Kanye West",
+    "timeHere": "1 month ago in Entertainment",
+    "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque.. Aenean eu velit libero",
+    "image_url": "../Components/images/KanyeWest.jpg",
+    "cardFlag": false,
+    "wikiLink": "",
+    "veredictMessage": "What's Your Verdict"
+    },
+    {
+    "id": 3,
+    "position":2,
+    "name": "Mark Zuckerberg",
+    "timeHere": "1 month ago in Bussines",
+    "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque.. Aenean eu velit libero",
+    "image_url": "../Components/images/Mark.jpg",
+    "cardFlag": false,
+    "wikiLink": "",
+    "veredictMessage": "What's Your Verdict"
+    },
+    {
+    "id": 4,
+    "position":3,
+    "name": "Cristina Fernandez de Kirchner",
+    "timeHere": "1 month ago in Politics",
+    "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque.. Aenean eu velit libero",
+    "image_url": "../Components/images/Crist.jpg",
+    "cardFlag": false,
+    "wikiLink": "",
+    "veredictMessage": "What's Your Verdict"
+    },
+    {
+    "id": 5,
+    "position":4,
+    "name": "Malala Yousafzai",
+    "timeHere": "1 month ago in Entertainment",
+    "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque.. Aenean eu velit libero",
+    "image_url": "../Components/images/Crist.jpg",
+    "cardFlag": false,
+    "wikiLink": "",
+    "veredictMessage": "What's Your Verdict"
+    }
+
+
+]

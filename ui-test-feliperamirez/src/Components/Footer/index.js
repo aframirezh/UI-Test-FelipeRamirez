@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter } from '@fortawesome//free-brands-svg-icons';
-import './FooterComponent.scss';
+import { faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import './styles.scss';
 
-function FooterComponent () {
+function Footer () {
   return (
     <footer>
         <div className="contact">
@@ -21,4 +21,4 @@ function FooterComponent () {
   );
 }
 
-export default FooterComponent;
+export default Footer;

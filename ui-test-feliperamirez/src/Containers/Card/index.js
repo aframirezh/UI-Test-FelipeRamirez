@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './CardComponent.scss';
-import PostulatesComponent from '../Components/PostulatesComponent';
+import './styles.scss';
+import Postulates from '../../Components/Postulates';
  
-class CardComponent extends Component  {
+class Card extends Component  {
  
    constructor(props) {
        super(props);
@@ -19,6 +19,7 @@ class CardComponent extends Component  {
                <div className={containerClass}>
                    <div className={ info.cardFlag ? " card-container_background--header" : containerBackgroundClass}>
                        <div className="grid box" >
+                          <Postulates key={info.id} {...info}/>
                        </div>
                        <div className="grid box--good">
                            <span className="oi oi-thumb-up"></span>
@@ -32,4 +33,4 @@ class CardComponent extends Component  {
    }
 }
  
-export default CardComponent;
+export default Card;

@@ -1,4 +1,12 @@
 $imagesVotes: 4;
+$cardContainerBackground: rgba(204, 203, 203, 0.2);
+$boxBackgroundFrom: rgba(0, 0, 0, 0);
+$boxBackgroundTo: rgba(0, 0, 0, 0.7);
+$gridColor: #fff;
+$textColor: #ffffff;
+$textDecorationColor: #ffffff;
+$boxGoodColor: #1cbbb4;
+$boxBadColor: #ffad1d;
 
 .card-container {
   padding: 20px;
@@ -12,7 +20,7 @@ $imagesVotes: 4;
 .card-container_background--header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: rgba(204, 203, 203, 0.2);
+  background: $cardContainerBackground;
   backdrop-filter: blur(10px);
 }
 
@@ -25,7 +33,7 @@ $imagesVotes: 4;
 
 @for $i from 1 through $imagesVotes {
   .card-container_background--#{$i} {
-    background: url("../images/#{$i}.jpg");
+    background: url("./images/#{$i}.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,15 +44,15 @@ $imagesVotes: 4;
 }
 
 .grid {
-  color: #fff;
-  
+  color: $gridColor;
 }
 
 .box {
+  //grid-template-columns: auto auto;
   grid-column: 1 / 6;
   grid-row-start: 1 / 6;
   min-height: 350px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(to bottom, $boxBackgroundFrom, $boxBackgroundTo);
   padding: 35px;
   text-align: left;
   display: flex;
@@ -56,7 +64,7 @@ $imagesVotes: 4;
   grid-column: 1 / 2;
   grid-row: 5 / 6;
   opacity: 0.9;
-  background-color: #1cbbb4;
+  background-color: $boxGoodColor;
   padding: 12px 0px 12px 0px;
   font-size: 3rem;
 }
@@ -66,7 +74,7 @@ $imagesVotes: 4;
   grid-column: 2 / 3;
   grid-row: 5 / 6;
   opacity: 0.9;
-  background-color: #ffad1d;
+  background-color: $boxBadColor;
   padding: 12px 0px 12px 0px;
   font-size: 3rem;
 }
@@ -93,9 +101,9 @@ $imagesVotes: 4;
 
 p a {
   vertical-align: middle;
-  color: #ffffff;
+  color: $textColor;
   text-decoration-style: dashed;
-  text-decoration-color: #ffffff;
+  text-decoration-color: $textDecorationColor;
 }
 
 /*

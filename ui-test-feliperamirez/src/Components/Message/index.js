@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './MessageComponent.scss';
+import './styles.scss';
 
 
-class MessageComponent extends Component {
+class Message extends Component {
 
     constructor(props) {
         super(props);
@@ -39,4 +39,4 @@ class MessageComponent extends Component {
     }
 }
 
-export default MessageComponent;
+export default Message;

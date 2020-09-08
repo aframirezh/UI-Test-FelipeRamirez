@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header rendering Header Correct rendering 1`] = `
+<DocumentFragment>
+  <header>
+    <div
+      class="child"
+    >
+      <h2>
+        Rule of Thumb.
+      </h2>
+    </div>
+    <ul
+      class="child"
+    >
+      <li>
+        <a
+          href="#"
+        >
+          Past Trials
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+        >
+          How It Works
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+        >
+          Log In/Sign Up
+        </a>
+      </li>
+    </ul>
+    <div
+      class="child"
+    >
+      <img
+        id="magnify"
+        src="magnify.png"
+      />
+      <input
+        id="search"
+        name="search"
+        type="text"
+      />
+    </div>
+  </header>
+</DocumentFragment>
+`;

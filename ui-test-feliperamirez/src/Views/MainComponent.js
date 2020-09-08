@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import HeaderComponent from '../Components/FooterComponent'
-import FooterComponent from '../Components/FooterComponent'
-import MessageComponent from '../Components/Message/MessageComponent';
-import CardComponent from '../Containers/CardComponent'
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
+import Message from '../Components/Message';
+import Card from '../Containers/Card'
+import Votes from '../Containers/Votes'
 import './MainComponent.scss';
 
 const testData = [{
@@ -22,8 +23,8 @@ const testData = [{
       return (
         <div>
             <div className="bgImg">
-              <HeaderComponent/>
-              {this.state.profiles.map(profile => <CardComponent key={profile.id} {...profile} />)}
+              <Header/>
+              {this.state.profiles.map(profile => <Card key={profile.id} {...profile} />)}
                <div className="bgImg__progressDate">
                   <div className="progressTime">
                     <p className="progressTime__closing">Closing</p>
@@ -33,9 +34,9 @@ const testData = [{
                   </div>
               </div> 
             </div>
-            <MessageComponent/>
-            <h2>Votes</h2>
-            <FooterComponent/>
+            <Message/>
+            <Votes/>
+            <Footer/>
         </div>
       )
     }

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Postulate render correctly 1`] = `
+<div>
+  <div>
+    <section>
+      <p>
+        <small
+          className="thin"
+        >
+          What's your opinion on
+        </small>
+        <br />
+        <strong
+          className="box-tittle-size regular"
+        >
+          Test Name
+        </strong>
+      </p>
+      <p
+        className="box-content-size light test-head-des"
+      >
+        Description test
+      </p>
+      <p>
+        <img
+          alt="wikipedia"
+          className="wiki"
+          src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Wikipedia%27s_W.svg"
+        />
+        <a
+          href="#wiki"
+        >
+          More information
+        </a>
+      </p>
+      <p
+        className="box-content-size regular"
+      >
+        What's Your Verdict?
+      </p>
+    </section>
+  </div>
+</div>
+`;
